@@ -1,16 +1,14 @@
 #include <stdio.h>
-#include <stdbool.h>
+#include <unistd.h>
 
-int main() {
-    // variable
-   int x = 2;
-   float y = 3;
-   float z = 0;
-
-   z = x / y;
-
-   printf("%f\n", z);
-
+int main()
+{
+    for (int i = 10; i >= 0; i--)
+    {
+        sleep(1);
+        printf("%d\n", i);
+    }
+    printf("HAPPY NEW YEAR!");
 
     return 0;
 }
