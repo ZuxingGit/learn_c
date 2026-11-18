@@ -1,0 +1,9 @@
+malloc(bytes) 
+dynamically allocates a specified number of bytes in memory.
+
+calloc(count, size)
+Allocates memory dynamically and SETS ALL ALLOCATED BYTES TO 0.
+malloc() is faster, but calloc() leads to less bugs
+
+realloc(ptr, bytes)
+Reallocation. Resize previously allocated memory
